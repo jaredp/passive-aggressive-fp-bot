@@ -102,10 +102,10 @@ export default function Home() {
           </div>
         </div>
 
-        <p className="text-lg text-gray-500">Is this good? Is this bad?</p>
+        <p className="text-lg text-gray-500">Is this good? Bad?</p>
 
         <p className="text-lg text-gray-500">
-          It's the future, so we should figure out what we want from it!
+          Either way, it's the future! We should figure out what we want from it.
         </p>
 
         <p className="text-lg text-gray-500">

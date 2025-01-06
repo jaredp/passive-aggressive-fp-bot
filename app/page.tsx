@@ -45,7 +45,7 @@ export default function Home() {
 
         <div>
           <div className="mb-2 flex flex-row justify-end">{install_badge}</div>
-          <div className="p-6 bg-gray-50 rounded-lg border border-gray-200 text-sm">
+          <div className="p-6 bg-gray-50 rounded-lg border border-gray-200 text-sm dark:bg-gray-800 dark:bg-gray-600">
             <div className="text-gray-800 mb-4">
               <span className="font-bold">@passive-aggressive-fp-bot</span>
               <span className="text-gray-500 ml-2">13 minutes ago</span>

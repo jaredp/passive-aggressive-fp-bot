@@ -45,8 +45,8 @@ export default function Home() {
 
         <div>
           <div className="mb-2 flex flex-row justify-end">{install_badge}</div>
-          <div className="p-6 bg-gray-50 rounded-lg border border-gray-200 text-sm dark:bg-gray-800 dark:bg-gray-600">
-            <div className="text-gray-800 mb-4">
+          <div className="p-6 bg-gray-50 rounded-lg border border-gray-200 text-sm dark:bg-gray-800 dark:border-gray-600">
+            <div className="text-gray-800 mb-4 dark:text-gray-200">
               <span className="font-bold">@passive-aggressive-fp-bot</span>
               <span className="text-gray-500 ml-2">13 minutes ago</span>
             </div>
@@ -56,7 +56,7 @@ export default function Home() {
                 which is a bit overkill for a simple addition operation. Instead
                 of creating an Adder class, consider using a simple function
                 like{" "}
-                <code className="bg-gray-200 p-1 rounded font-mono">{`const add = (n) => (x) => x + n;`}</code>
+                <code className="bg-gray-200 p-1 rounded font-mono dark:bg-gray-700">{`const add = (n) => (x) => x + n;`}</code>
                 . This approach is more concise and leverages the power of
                 closures in JavaScript. For more on functional programming, this
                 is a great place to start:{" "}

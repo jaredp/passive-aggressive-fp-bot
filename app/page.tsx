@@ -116,7 +116,7 @@ export default function Home() {
           >
             https://github.com/jaredp/passive-aggressive-fp-bot
           </a>
-          . Pull requests welcome, iff they're funny.
+          . Pull requests welcome iff funny.
         </p>
       </main>
     </div>
